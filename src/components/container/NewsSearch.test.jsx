@@ -1,3 +1,4 @@
+/* eslint-disable space-before-function-paren */
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import NewsSearch from './NewsSearch';

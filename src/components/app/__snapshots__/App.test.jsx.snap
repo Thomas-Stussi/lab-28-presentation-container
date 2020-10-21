@@ -18,8 +18,9 @@ exports[`App component renders App 1`] = `
   >
     Search
   </button>
-  <ul
-    data-testid="articles"
+  <img
+    alt="placecage gif"
+    src="https://www.placecage.com/gif/284/196"
   />
 </DocumentFragment>
 `;

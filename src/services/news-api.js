@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 export const getArticles = (search) => {
   const API_KEY = 'ba5b8bb6d5e04b05bd04c5e37c2b2581';
 

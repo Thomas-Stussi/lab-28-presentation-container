@@ -1,3 +1,4 @@
+/* eslint-disable space-before-function-paren */
 import React, { Component } from 'react';
 import ArticleList from '../articles/ArticleList';
 import Search from '../search/Search';
@@ -15,7 +16,7 @@ export default class AllArticles extends Component {
 
   handleSearch = async () => {
     const articleArray = await getArticles(this.state.search);
-    console.log(articleArray);
+
     this.setState({ articles: articleArray });
   }
 

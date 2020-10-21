@@ -11,13 +11,14 @@ const Search = ({ search, onSubmit, onChange }) => (
       value={search}
       onChange={onChange}
     />
-    <button onClick={onSubmit}>Search</button>
+    <button onClick={onSubmit} data-testid="button">Search</button>
   </>
 );
 
 Search.propTypes = {
   search: PropTypes.string.isRequired,
-  onSubmit: PropTypes.func.isRequired
+  onSubmit: PropTypes.func.isRequired,
+  onChange: PropTypes.func.isRequired
 };
 
 export default Search;

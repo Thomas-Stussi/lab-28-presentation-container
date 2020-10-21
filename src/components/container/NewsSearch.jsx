@@ -1,3 +1,4 @@
+/* eslint-disable keyword-spacing */
 /* eslint-disable space-before-function-paren */
 import React, { Component } from 'react';
 import ArticleList from '../articles/ArticleList';

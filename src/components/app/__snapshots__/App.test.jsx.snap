@@ -18,6 +18,7 @@ exports[`App component renders App 1`] = `
   >
     Search
   </button>
+  <br />
   <img
     alt="placecage gif"
     src="https://www.placecage.com/gif/284/196"
